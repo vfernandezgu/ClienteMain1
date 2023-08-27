@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  *
  * @author Valentina Fernández y Andres Collazos
  */
-public class ClienteMain1 {
+public class Main {
 
     /**
      * @param args the command line arguments
@@ -59,7 +59,7 @@ public class ClienteMain1 {
             viajes.add(viaje4);
 
         } catch (ParseException ex) {
-            Logger.getLogger(ClienteMain1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

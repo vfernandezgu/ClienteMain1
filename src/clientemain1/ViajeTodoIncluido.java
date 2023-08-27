@@ -8,19 +8,16 @@ import java.util.Date;
 
 /**
  *
- * @author usuario
+ * @author Valentina Fernández y Andres Collazos
  */
 public class ViajeTodoIncluido extends Viaje {
 
-    private String empresa;
-
-    public ViajeTodoIncluido(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada, String empresa) {
+    public ViajeTodoIncluido(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
         setOrigen(origen);
         setDestino(destino);
         setCosto(costo);
         setFechaSalida(fechaSalida);
         setFechaLlegada(fechaLlegada);
-        this.empresa = empresa;
     }
 // Constructores
 
@@ -29,18 +26,4 @@ public class ViajeTodoIncluido extends Viaje {
         return "Disfruta tu viaje todo incluido";
     }
 //No se sobreescribe cualquierMetodo2()
-
-    /**
-     * @return the empresa
-     */
-    public String getEmpresa() {
-        return empresa;
-    }
-
-    /**
-     * @param empresa the empresa to set
-     */
-    public void setEmpresa(String empresa) {
-        this.empresa = empresa;
-    }
 }

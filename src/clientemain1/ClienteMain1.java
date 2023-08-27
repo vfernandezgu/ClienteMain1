@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author usuario
+ * @author Valentina Fernández y Andres Collazos
  */
 public class ClienteMain1 {
 
@@ -55,7 +55,7 @@ public class ClienteMain1 {
 
             Viaje viaje4 = new ViajeTodoIncluido("Popayán", "Cartagena", 7350000,
                     new SimpleDateFormat("dd/MM/yyyy").parse("01/07/2019"),
-                    new SimpleDateFormat("dd/MM/yyyy").parse("12/07/2019"), "Emtel");
+                    new SimpleDateFormat("dd/MM/yyyy").parse("12/07/2019"));
             viajes.add(viaje4);
 
         } catch (ParseException ex) {

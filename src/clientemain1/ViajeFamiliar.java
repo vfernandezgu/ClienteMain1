@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author usuario
+ * @author Valentina Fernández y Andres Collazos
  */
 public class ViajeFamiliar extends Viaje {
 
